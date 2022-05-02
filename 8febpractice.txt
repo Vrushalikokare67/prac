@@ -1,0 +1,73 @@
+vrush@LAPTOP-PSDVQHIL MINGW64 ~ (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/vrush/.git/
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~ (master)
+$ git config --global user.name"VrushaliKokare67"
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~ (master)
+$ git config --global user.email "vrushalikokare6383@gmail.com"
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~ (master)
+$ git config --global user.email
+vrushalikokare6383@gmail.com
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~ (master)
+$ git config --global user.name
+vrushali
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~ (master)
+$ cd OneDrive
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive (master)
+$ cd Desktop/PRACTICE
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive/Desktop/PRACTICE (master)
+$ touch README.md
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive/Desktop/PRACTICE (master)
+$ git init
+Initialized empty Git repository in C:/Users/vrush/OneDrive/Desktop/PRACTICE/.git/
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive/Desktop/PRACTICE (master)
+$ git add .
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive/Desktop/PRACTICE (master)
+$
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive/Desktop/PRACTICE (master)
+$ git add README.md
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive/Desktop/PRACTICE (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   README.md
+
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive/Desktop/PRACTICE (master)
+$ git commit -m "First commit"
+[master (root-commit) 44dd0e6] First commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive/Desktop/PRACTICE (master)
+$ git reset HEAD~1
+fatal: ambiguous argument 'HEAD~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive/Desktop/PRACTICE (master)
+$ git remote add origin https://github.com/Vrushalikokare67/Traning
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive/Desktop/PRACTICE (master)
+$ git remote -v
+origin  https://github.com/Vrushalikokare67/Traning (fetch)
+origin  https://github.com/Vrushalikokare67/Traning (push)
+
+vrush@LAPTOP-PSDVQHIL MINGW64 ~/OneDrive/Desktop/PRACTICE (master)
+$ git push -u origin master
